@@ -5,12 +5,14 @@ submit.addEventListener("click", function(e){
     var dob = document.getElementById("date").value;
     var mob = document.getElementById ("month").value;
     var yob = document.getElementById("year").value;
-    var gent = document.getElementById("male");
-    var lady = document.getElementById("female");
+    var gent = document.getElementById("male").value;
+    var lady = document.getElementById("female").value;
 
     // var formula =( ( (cent+1/4) - 2 * (cent - 1)) + ((5*yobs/4) ) + ((26*(mob+1)/10)) + dob)% 7;
-    
 
+    var date = new Date(`${yob}-${mob}-${dob}`); //yob + "-" + mob + "-" + dob
+    var day = date.getDay();
+        
     alert(day);
     
 
