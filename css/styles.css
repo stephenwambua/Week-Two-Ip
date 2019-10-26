@@ -1,1 +1,15 @@
-/* @import url("bootstrap.css"); */
+@import url("bootstrap.css");
+#frm{
+    height: 300px;
+    box-sizing: border-box;
+    text-align: center;
+    align-content: center;
+    color: aliceblue;
+    background-size: cover;
+    background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/06/16/ea/90/explorer-kenya-safari.jpg");
+}
+
+body{
+    background-color: black;
+    color: aliceblue;
+} 
