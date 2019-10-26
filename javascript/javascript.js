@@ -1,11 +1,25 @@
-var dob = parseInt(document.getElementById("date").value);
-var mod = parseInt(document.getElementById ("month").value);
-var yob = document.getElementById("year").value;
+var submit = document.getElementById("submit");
 
-var cent = parseInt(yob.slice (0, 2));
-var yobs = parseInt (yob.slice (2, 4));
+submit.addEventListener("click", function(e){
+    e.preventDefault();
+    var dob = document.getElementById("date").value;
+    var mob = document.getElementById ("month").value;
+    var yob = document.getElementById("year").value;
+    
+
+    var cent = parseInt(yob.slice (0, 2));
+    var yobs = parseInt (yob.slice (2, 4));
 
 
+    var formula =( ( (cent+1/4) - 2 * (cent - 1)) + ((5*yobs/4) ) + ((26*(mob+1)/10)) + dob)% 7;
+    
+
+    alert(day);
+    
+
+})
+
+// document.write("formula");
 
 // function myForm(){
 
