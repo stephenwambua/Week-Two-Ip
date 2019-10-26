@@ -5,11 +5,6 @@ submit.addEventListener("click", function(e){
     var dob = document.getElementById("date").value;
     var mob = document.getElementById ("month").value;
     var yob = document.getElementById("year").value;
-    
-
-    var cent = parseInt(yob.slice (0, 2));
-    var yobs = parseInt (yob.slice (2, 4));
-
 
     var formula =( ( (cent+1/4) - 2 * (cent - 1)) + ((5*yobs/4) ) + ((26*(mob+1)/10)) + dob)% 7;
     
