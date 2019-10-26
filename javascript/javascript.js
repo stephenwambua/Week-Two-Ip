@@ -1,8 +1,12 @@
 var dob = parseInt(document.getElementById("date").value);
 var mod = parseInt(document.getElementById ("month").value);
-var yob = document.getElementById("year");
+var yob = document.getElementById("year").value;
 
-var formula = 
+var cent = parseInt(yob.slice (0, 2));
+var yobs = parseInt (yob.slice (2, 4));
+
+
+
 // function myForm(){
 
 //     var day =parseInt(document.getElementById("date").Value;);
