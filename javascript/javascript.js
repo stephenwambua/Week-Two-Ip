@@ -6,7 +6,7 @@ submit.addEventListener("click", function(e){
     var mob = document.getElementById ("month").value;
     var yob = document.getElementById("year").value;
 
-    var formula =( ( (cent+1/4) - 2 * (cent - 1)) + ((5*yobs/4) ) + ((26*(mob+1)/10)) + dob)% 7;
+    // var formula =( ( (cent+1/4) - 2 * (cent - 1)) + ((5*yobs/4) ) + ((26*(mob+1)/10)) + dob)% 7;
     
 
     alert(day);
