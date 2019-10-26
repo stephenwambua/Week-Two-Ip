@@ -1,16 +1,17 @@
-function printMaleName(nameofperson){
-    if(Monday){
-        console.log("Your name is Kwadwo you were born on a monday");
-    }else if(Tuesday){
-        console.log("Your name is Kwabena you were born on a monday");
-    }else if( Wednesday){
-        console.log("Your name is Kwaku you were born on a monday");
-    }else if(Thursday){
-        console.log("Your name is Yaw you were born on a monday");
-    }else if(Friday){
-        console.log("Your name is Kofi you were born on a monday");
-    }else if( Saturday){
-      console.log("Your name is Kwame you were born on a monday");
-    }else(Sunday){
-        console.log("Your name is Kwasi you were born on a monday");
-    }
+var dob = parseInt(document.getElementById("date").value);
+var mod = parseInt(document.getElementById ("month").value);
+var yob = document.getElementById("year");
+
+var formula = 
+// function myForm(){
+
+//     var day =parseInt(document.getElementById("date").Value;);
+
+//     return document.getElementById("result").innerHTML= day;
+
+// }
+// CC - is the century digits. For example 1989 has CC = 19
+// YY - is the Year digits (1989 has YY = 89)
+// MM -  is the Month
+// DD - is the Day of the month 
+// mod - is the modulus function ( % )
