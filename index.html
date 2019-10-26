@@ -1,4 +1,25 @@
 <html>
+    <head>
+        <title>trial</title>
+    </head>
+    <body>
+            <form onsubmit="result=false">
+                    Date <input type="number" id="date" min="1" max="31" required>
+                    Month <input type="number" id="month" min="1" max="12" required>
+                    Year <input type="number"  id="year" min="1900" max="2019" required><br>
+                    <input type="radio" name="gender" value="male"> Male<br>
+                    <input type="radio" name="gender" value="female"> Female<br>
+                     <button id="submit">submit</button>
+                    <output id="result">res</output>
+            </form>
+            <script src="javascript/javascript.js"></script>
+
+    </body>
+</html>
+
+
+
+<!-- <html>
     <head> 
         <title>week two ip</title>
         <link rel="stylesheet" href="css/styles.css">
@@ -6,20 +27,26 @@
     <body>
         <div class="container">
             <div class="row">
+                <div class="jumbotron col-md-12">
                    <p>this is where the projects desription will be</p>
+                </div>
             </div>
             <div class="row">
-                    <div class="col-md-6">this is where the results are output</div>
                     <div class="col-md-6">
                         <p>this is where the birthday date is writen</p>
-                        <form action="javascript.js">
-                           Date <input type="number"  name="dateofbirth" min="1" max="31"required>
-                           Month <input type="number" name="monthofbirth" min="1" max="12"required>
-                           Year <input type="number" name="yearofbirth" min="1" max="2019"required>
-                           <input type="submit">
+                        <form onsubmit="result=false">
+                           Date <input type="number" id="date" min="1" max="31" required>
+                           Month <input type="number" id="month" min="1" max="12" required>
+                           Year <input type="number"  id="year" min="1900" max="2019" required><br>
+                           <input type="radio" name="gender" value="male"> Male<br>
+                           <input type="radio" name="gender" value="female"> Female<br>
+                            <button onclick="myForm()"></button>
+                           <output id="result">res</output>
                         </form>
                     </div>
+                     <div class="col-md-6">this is where the results are output</div>
             </div>
         </div>
+        <script src="javascript/javascript.js"></script>
     </body>
-</html>
+</html> -->
