@@ -1,21 +1,3 @@
-<!-- <html>
-    <head>
-        <title>Akan Name.</title>
-    </head>
-    <body>
-            <form onsubmit="result=false">
-                    Date <input type="number" id="date" min="1" max="31" required>
-                    Month <input type="number" id="month" min="1" max="12" required>
-                    Year <input type="number"  id="year" min="1900" max="2019" required><br>
-                    <input type="radio" name="gender" value="male" id="male"> Male<br>
-                    <input type="radio" name="gender" value="female" id="female"> Female<br>
-                     <button id="submit">submit</button>
-                    <output id="result">res</output>
-            </form>
-            <script src="javascript/javascript.js"></script>
-
-    </body>
-</html> -->
 <html>
     <head> 
         <title>week two ip</title>
@@ -24,33 +6,28 @@
     <body>
         <div class="container">
             <div class="row">
-                <div class="jumbotron col-md-12">
-                   <p>this is where the projects desription will be</p>
+                <div class="jumbotron col-md-12" id="Akan">
+                   <h1>AKAN NAME</h1>
+                   <p> welcome to our webpage. This web application takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name will be displayed.
+                   <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Feel free to try out and see what happens</p>
                 </div>
             </div>
             <div class="row">
                     <div class="col-md-6">
-                        <p>this is where the birthday date is writen</p>
                         <form id="frm" onsubmit="result=false">
+                                <p>Fill in the form with your birthday date then click the submit button</p>
                                 Date <input type="number" id="date" min="1" max="31" required>
                                 Month <input type="number" id="month" min="1" max="12" required>
-                                Year <input type="number"  id="year" min="1900" max="2019" required><br>
-                                <input type="radio" name="gender" value="male" id="male"> Male<br>
-                                <input type="radio" name="gender" value="female" id="female"> Female<br>
+                                Year <input type="number" id="year" min="1900" max="2019" required><br>
+                                Male<input type="radio" name="gender" value="male" id="male" required><br>
+                                Female<input type="radio" name="gender" value="female" id="female" required> <br>
                                  <button id="submit">submit</button>
                                 <output id="result"></output>
                         </form>
                     </div>
-                     <div class="col-md-6">this is where the results are output</div>
+                     <div class="col-md-6" id="right">This is where the results are output</div>
             </div>
         </div>
         <script src="javascript/javascript.js"></script>
     </body>
 </html>
-<!-- Date <input type="number" id="date" min="1" max="31" required>
-                           Month <input type="number" id="month" min="1" max="12" required>
-                           Year <input type="number"  id="year" min="1900" max="2019" required><br>
-                           <input type="radio" name="gender" value="male"> Male<br>
-                           <input type="radio" name="gender" value="female"> Female<br>
-                            <button onclick="myForm()"></button>
-                           <output id="result">res</output> -->
