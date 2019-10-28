@@ -18,13 +18,13 @@ body{
     background-color: rgb(89, 146, 168);
 }
 #right{
-    font-size: 20px;
+    font-size: 50px;
     font-style: inherit;
-    padding-top: 50px;
+    padding-top: 250px;
     height: 350px;
     text-align: center;
-    color: aliceblue;
+    color: rgb(212, 46, 46);
     background-size: cover;
-    background-color: rgb(144, 184, 144);;
-    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq9IKVDtdRJfs7ZY0kkKBJ3ivG4K2f6bcQX87H1QAzweSDy_ekZg&s"); */
+    background-color: rgb(72, 110, 72);;
+    background-image: url("https://netstorage-yen.akamaized.net/images/3o3bpd1spbvpcden9o.jpg?imwidth=900");
 }
