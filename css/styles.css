@@ -1,7 +1,9 @@
 @import url("bootstrap.css");
 #frm{
-    padding-top: 100px;
-    height: 300px;
+    font-size: 20px;
+    font-style: inherit;
+    padding-top: 50px;
+    height: 350px;
     text-align: center;
     color: aliceblue;
     background-size: cover;
@@ -14,5 +16,15 @@ body{
 #Akan{
     text-align: center;
     background-color: rgb(89, 146, 168);
-    text-emphasis-color: black;
+}
+#right{
+    font-size: 20px;
+    font-style: inherit;
+    padding-top: 50px;
+    height: 350px;
+    text-align: center;
+    color: aliceblue;
+    background-size: cover;
+    background-color: rgb(144, 184, 144);;
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq9IKVDtdRJfs7ZY0kkKBJ3ivG4K2f6bcQX87H1QAzweSDy_ekZg&s"); */
 }
