@@ -21,6 +21,6 @@ In case of any issues you can contact me via:
 * my email which is ngumbausteph@gmail.com or
 * my phone number which is +254718659266
 ### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-Copyright (c) {year} 
-**{List of contributors or company name}**
+*This is an personal document that cannot be used anywhere else other than by the creater of the site*
+Copyright (c) 2019 
+**{Swiftnet Technologies}**
