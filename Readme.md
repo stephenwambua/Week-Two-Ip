@@ -1,6 +1,9 @@
 # {AKAN Name}
 #### key in your birthdate and see your Akan name, version 28.10.2019
-#### By * Stephen * Brian * Prof
+#### By 
+* Stephen 
+* Brian 
+* Prof
 ## Description
 This web application takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name will be displayed.
 Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Feel free to try out and see what happens
