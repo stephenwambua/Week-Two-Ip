@@ -1,4 +1,4 @@
-# {AKAN Name}
+# Checking AKAN Name
 #### key in your birthdate and see your Akan name, version 28.10.2019
 #### By 
 * Stephen 
