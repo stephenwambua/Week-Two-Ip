@@ -4,9 +4,9 @@ submit.addEventListener("click", function(e){
     var dob = document.getElementById("date").value;
     var mob = document.getElementById ("month").value;
     var yob = document.getElementById("year").value;
-    var sex = document.getElementsByName("gender").valu;
+    var sex = document.getElementsByName("gender").value;
     var gent = document.getElementById("male");
-    var lady = document.getElementById("female");
+    var lady = document.getElementById("female").value;
     var weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     var man = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
     var woman =["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
