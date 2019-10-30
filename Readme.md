@@ -10,7 +10,7 @@ This web application takes a user's birthday and calculates the day of the week 
 Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the
  week they were born. Feel free to try out and see what happens
 
-# screenshot
+# BDD
 
 ![Home page](images/welcome.png)
 This is the first page to the website

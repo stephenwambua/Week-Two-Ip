@@ -16,7 +16,7 @@ submit.addEventListener("click", function(e){
     }else if (mob <1 || mob>12) {
     alert("Enter a valid month")
     return false;
-    }else if(yob <1900 || dob>2019){
+    }else if(yob <1800 || dob>2019){
     alert("Enter a valid year")
     return false;
     }else if (mob ==2 && dob>29){
