@@ -27,7 +27,7 @@ The languages and tools used to create this app are:
 In case of any issues you can contact me via:
 * my email which is ngumbausteph@gmail.com or
 * my phone number which is +254718659266
-### License
+## License
 *This is an personal document that cannot be used anywhere else other than by the creater of the site*
 Copyright (c) 2019
 **{Swiftnet Technologies}**
