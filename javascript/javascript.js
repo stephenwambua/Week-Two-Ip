@@ -10,7 +10,6 @@ submit.addEventListener("click", function(e){
     var weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     var man = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
     var woman =["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
-
     if (dob <1 || dob>31){
     alert("Enter a valid date");
     return false;

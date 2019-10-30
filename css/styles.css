@@ -32,16 +32,15 @@ body{
     background-image: url("https://netstorage-yen.akamaized.net/images/3o3bpd1spbvpcden9o.jpg?imwidth=900");
 }
 form input{
-    line-height: 15px;
+    line-height: 25px;
     width: 150px;
 }
 form input[type="radio"]{
 width: 40px;
 }
 input{
-    size: 30px;
+    size: 40px;
 }
 #results{
     padding-right: 10px;
-   
 }
